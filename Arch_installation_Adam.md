@@ -53,7 +53,7 @@ I got: `no devices found`.
 // The official [Arch Wiki guide on Wi-Fi](https://wiki.archlinux.org/title/Wireless_network_configuration) didn’t help much in my case because the Mac UTM network drivers are emulated differently and don’t expose a usable wireless interface directly to Arch.
 
 After hours of searching on the Arch Wiki and DuckDuckGo, I realized that the default UTM network setting (Emulated NIC) was not compatible with the ARM ISO. I fixed it by:
-1. Opening UTM → **Settings → Network** → changing interface to **Shared Network (Emulated)**.
+1. Opening UTM > Settings > Network > changing interface to Shared Network (Emulated).
 2. Restarted the VM.
 3. Used:
 ```bash
@@ -65,7 +65,7 @@ Finally, I was able to get internet connectivity and verify with:
 ping archlinux.org
 ```
 
-## I strongly recommend ignoring the Arch Wiki’s Wi-Fi instructions for this scenario if using macOS/UTM — they won’t work as expected without physical hardware.
+## I strongly recommend ignoring the Arch Wiki’s Wi-Fi instructions for this scenario if using macOS/UTM — they won’t work as expected without physical hardware like ethernet.
 
 ---
 
@@ -262,7 +262,4 @@ Despite the frustration, I gained a deeper understanding of how Linux systems bo
 
 **End of Installation — Adam Chaalan**
 
----
-
-**End of Installation — Adam Chaalan**
 
