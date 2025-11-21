@@ -1,6 +1,6 @@
 # WireGuard VPN Project (Project 3)
 **By Adam Chaalan**  
-CYB 3353 – Linux Administration  
+CYB 3353 – System Administration  
 Instructor: Professer Codi West
 
 ---
